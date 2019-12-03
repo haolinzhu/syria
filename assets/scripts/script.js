@@ -302,6 +302,12 @@ us.onclick = function() {
   usbox.style.display = "block";
 }
 
+let rus = document.getElementById("rus");
+let rusbox = document.getElementById("rusbox");
+rus.onclick = function() {
+  rusbox.style.display = "block";
+}
+
 let span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   govbox.style.display = "none";
@@ -330,6 +336,11 @@ span4.onclick = function() {
 let span5 = document.getElementsByClassName("close5")[0];
 span5.onclick = function() {
   usbox.style.display = "none";
+}
+
+let span6 = document.getElementsByClassName("close6")[0];
+span6.onclick = function() {
+  rusbox.style.display = "none";
 }
 
 let rus_islam = document.getElementById("l1");

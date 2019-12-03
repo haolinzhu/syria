@@ -722,14 +722,14 @@ hr.line45{
   border-color: #5E8C61;
 }
 
-.close, .close1, .close2, .close3, .close4, .close5 {
+.close, .close1, .close2, .close3, .close4, .close5, .close6 {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover, .close1:hover, .close2:hover, .close3:hover, .close4:hover, .close5:hover {
+.close:hover, .close1:hover, .close2:hover, .close3:hover, .close4:hover, .close5:hover, .close6:hover {
   color: #000;
   text-decoration: none;
   cursor: pointer;
