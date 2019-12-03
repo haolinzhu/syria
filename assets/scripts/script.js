@@ -308,6 +308,12 @@ rus.onclick = function() {
   rusbox.style.display = "block";
 }
 
+let iran = document.getElementById("iran");
+let iranbox = document.getElementById("iranbox");
+iran.onclick = function() {
+  iranbox.style.display = "block";
+}
+
 let span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   govbox.style.display = "none";
@@ -341,6 +347,11 @@ span5.onclick = function() {
 let span6 = document.getElementsByClassName("close6")[0];
 span6.onclick = function() {
   rusbox.style.display = "none";
+}
+
+let span7 = document.getElementsByClassName("close7")[0];
+span7.onclick = function() {
+  iranbox.style.display = "none";
 }
 
 let rus_islam = document.getElementById("l1");
