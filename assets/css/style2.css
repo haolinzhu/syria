@@ -731,6 +731,14 @@ hr.line45{
   border-color: #5E8C61;
 }
 
+#us-content {
+  border-color: #427AA1;
+}
+
+#rus-content {
+  border-color: #427AA1;
+}
+
 .close, .close1, .close2, .close3, .close4, .close5, .close6 {
   color: #aaaaaa;
   float: right;
