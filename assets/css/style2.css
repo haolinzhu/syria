@@ -676,6 +676,27 @@ hr.line45{
   transform: rotate(90deg);
 }
 
+hr.line46{
+  width: 20px;
+  margin-top: -172px;
+  margin-left: 1200px;
+  border-top: 3px solid #58db61;
+}
+
+hr.line47{
+  width: 20px;
+  margin-top: -148px;
+  margin-left: 1200px;
+  border-top: 3px solid #eb6e6e;
+}
+
+hr.line48{
+  width: 20px;
+  margin-top: -124px;
+  margin-left: 1200px;
+  border-top: 3px solid #e3e354;
+}
+
 .box {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -766,6 +787,18 @@ hr.line45{
 }
 
 .footer {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#legend-container {
+  margin-top: -300px;
+  margin-left: 1200px;
+}
+
+.legend {
   margin-top: 10px;
   margin-left: 30px;
   font-size: 12px;
