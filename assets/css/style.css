@@ -10,8 +10,10 @@ body {
   align-items: center;
 }
 
+
 #title {
   font-family: 'Playfair Display', serif;
+
 	font-weight: bold;
   font-size: 50px;
 	color: white;
@@ -31,4 +33,34 @@ body {
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 100px;
+}
+
+#aleppo {
+  filter: grayscale(100%);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  opacity: 0.4;
+
+  min-width: 100%;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+}
+#next-button {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+#begin {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
 }
