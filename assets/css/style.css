@@ -37,13 +37,10 @@ body {
 
 #aleppo {
   filter: grayscale(100%);
-
   position: fixed;
   top: 0;
   left: 0;
-
   opacity: 0.4;
-
   min-width: 100%;
   z-index: -1;
 }
@@ -55,6 +52,11 @@ a {
   border-style: solid;
   border-color: white;
   border-width: 2px;
+  padding: 12px;
+}
+
+#next-button:hover {
+  background: rgba(204, 204, 204, 0.5);
 }
 
 #begin {
